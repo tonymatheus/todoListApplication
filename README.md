@@ -6,3 +6,7 @@ implementação de um ToDo list com javascript puro , com o objetivo de aplicar 
 
 - Javascript
 - bootstrap
+
+### Gostaria de brincar com a aplicação ? acesso o link abaixo
+
+[TodoList](https://spontaneous-mochi-88c38e.netlify.app/)
