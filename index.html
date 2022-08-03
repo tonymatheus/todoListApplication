@@ -33,27 +33,32 @@
         </form>
       </header>
 
-      <ul class="todos-container list-group mx-auto text-light">
+      <ul
+        class="todos-container list-group mx-auto text-light"
+        data-remove="remove"
+      >
         <li
-          data-remove="delete"
+          data-remove="remove"
           class="list-group-item d-flex justify-content-between align-items-center text-success"
         >
           <span>Assistir Breaking Bad</span>
-          <i class="far fa-trash-alt delete"></i>
+          <i class="far fa-trash-alt delete" data-remove="remove"></i>
         </li>
 
         <li
+          data-remove="remove"
           class="list-group-item d-flex justify-content-between align-items-center text-success"
         >
           <span>Planejar aulas</span>
-          <i class="far fa-trash-alt delete"></i>
+          <i class="far fa-trash-alt delete" data-remove="remove"></i>
         </li>
 
         <li
+          data-remove="remove"
           class="list-group-item d-flex justify-content-between align-items-center text-success"
         >
           <span>Fazer exercícios físicos</span>
-          <i class="far fa-trash-alt delete"></i>
+          <i class="far fa-trash-alt delete" data-remove="remove"></i>
         </li>
       </ul>
 
