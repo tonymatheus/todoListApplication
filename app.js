@@ -7,9 +7,9 @@ const addTodo = (event) => {
   const inputValue = event.target.add.value.trim();
 
   let htmlTemplate = `
-        <li data-remove="delete" class="list-group-item d-flex justify-content-between align-items-center text-success">
+        <li data-remove="delete" class="list-group-item d-flex justify-content-between align-items-center text-success" data-remove="remove">
           <span>${inputValue}</span>
-          <i class="far fa-trash-alt delete"></i>
+          <i class="far fa-trash-alt delete" data-remove="remove"></i>
         </li>
   `;
 
